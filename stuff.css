@@ -1,0 +1,50 @@
+*{
+	font-family: "Ubuntu Sans";
+}
+
+body{
+	background: #403a3a;
+}
+
+.head{
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.main{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.main a{
+	position: relative;
+	margin: 10px;
+	color: white;
+	border: 2px solid white;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	transition: width 1s, height 1s, padding 1s, background 1s, color 1s;
+}
+.main a:hover{
+	width: 250px;
+	height: 25px;
+	padding: 1.5em 0;
+	background: white;
+	color: #403a3a;
+}
+
+.me{
+	display: flex;
+	color: white;
+	position: absolute;
+}
+.me img{
+	border-radius: 20px;
+	width: 200px;
+	height: 200px;
+}
